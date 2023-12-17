@@ -1,0 +1,31 @@
+{
+    "recetas": {
+      "receta": {
+        "nombre": "Sopa de cebolla",
+        "comensales": 4,
+        "ingredientes": {
+          "ingrediente": [
+            "_cebolla",
+            "_caldo de carne",
+            "_mantequilla",
+            "_harina",
+            "_queso emmental suizo o gruyere rallado",
+            "_pan",
+            "_tomillo",
+            "_laurel",
+            "_pimienta"
+          ]
+        },
+        "proceso": {
+          "paso": [
+            "Pelar y partir las cebollas en rodajas finas.",
+            "Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.",
+            "Añadir la harina sin dejar de remover.",
+            "Ponerlo en una cazuela con el caldo, el tomillo y el laurel.",
+            "Dejar cocer a fuego lento durante unos 15 minutos.",
+            "Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno."
+          ]
+        }
+      }
+    }
+  }
