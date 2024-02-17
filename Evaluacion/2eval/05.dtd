@@ -1,0 +1,17 @@
+<!ELEMENT cine (pelicula+)>
+<!ELEMENT pelicula (sinopsis,reparto,imagen)>
+<!ATTLIST pelicula titulo CDATA #REQUIRED>
+<!ATTLIST pelicula año NMTOKEN #REQUIRED>
+<!ATTLIST pelicula director CDATA #REQUIRED>
+<!ATTLIST pelicula duracion CDATA #REQUIRED>
+<!ATTLIST pelicula genero NMTOKEN #REQUIRED>
+<!ATTLIST pelicula idioma NMTOKEN #REQUIRED>
+
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT reparto (actor+)>
+<!ELEMENT actor EMPTY>
+<!ATTLIST actor nombre CDATA #REQUIRED>
+<!ATTLIST actor papel CDATA #REQUIRED>
+<!ELEMENT imagen EMPTY>
+<!ATTLIST imagen url CDATA #REQUIRED>
+<!ATTLIST imagen descripcion CDATA #REQUIRED>

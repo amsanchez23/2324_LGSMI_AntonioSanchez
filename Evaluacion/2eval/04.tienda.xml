@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compania>
+    <empresa>
+        <nombre>Bicicleras S.A.</nombre>
+        <codigoCNAE>2385</codigoCNAE>
+        <nif>U37482734</nif>
+    </empresa>
+    <tiendas>
+       <pedido> 
+            <id>1</id>
+            <ciudad>Ciudad Real</ciudad>
+            <direccion>calle falsa 123</direccion>
+            <provincia>Ciudad Real</provincia>
+            <fechaDeApertura>2023-01-01</fechaDeApertura>
+            <fechaAlta>2023-01-01</fechaAlta>
+         
+            <bicicletas>
+                <talla>s</talla>
+                <color>Rojo</color>
+                <tamanioRuedas>26</tamanioRuedas>
+                <unidadTamanio>pulgadas</unidadTamanio>
+                <marca>Specialized</marca>
+                <precio>500</precio>
+            </bicicletas>
+        </pedido>
+        <pedido>
+            <id>2</id>
+            <ciudad>Toledo</ciudad>
+            <direccion>calle falsa 456</direccion>
+            <provincia>Toledo</provincia>
+            <fechaDeApertura>2023-11-01</fechaDeApertura>
+            <fechaAlta>2023-02-01</fechaAlta>
+         
+            <bicicletas>
+                <talla>m</talla>
+                <color>Negro</color>
+                <tamanioRuedas>27.5</tamanioRuedas>
+                <unidadTamanio>pulgadas</unidadTamanio>
+                <marca>Scott</marca>
+                <precio>500</precio>
+            </bicicletas>
+        </pedido>    
+    </tiendas>
+</compania>
